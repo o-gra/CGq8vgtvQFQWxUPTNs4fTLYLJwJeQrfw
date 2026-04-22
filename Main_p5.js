@@ -121,7 +121,7 @@ function keyPressed(){
   if (key == 'w'){
     p1key = true;
   }
-  if (keyCode == UP_ARROW){
+  if (key == 'i'){
     p2key = true;
   }
   console.log(key);
@@ -131,7 +131,7 @@ function keyReleased(){
   if (key == 'w'){
     p1key = false;
   }
-  if (keyCode == UP_ARROW){
+  if (keyCode == 'i'){
     p2key = false;
   }
 }

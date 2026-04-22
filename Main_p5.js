@@ -13,21 +13,21 @@ let cloudAboveScreen = 100
 let cloudMaxSpeed = 4.5
 
 function preload() {
-  sky = loadImage('assets/sky.png');
-  ground = loadImage('assets/ground.png');
-  cloudSheet = loadImage('assets/clouds.png');
-  playerSprite = loadImage('assets/spriteArt.png');
-  joker = loadImage('assets/joker.png');
-  failure = loadImage('assets/fail.png');
-  goNow = loadImage('assets/now.png');
-  pixel = loadFont('assets/VCR_OSD_MONO_1.001.ttf');
+  sky = loadImage('./assets/sky.png');
+  ground = loadImage('./assets/ground.png');
+  cloudSheet = loadImage('./assets/clouds.png');
+  playerSprite = loadImage('./assets/spriteArt.png');
+  joker = loadImage('./assets/joker.png');
+  failure = loadImage('./assets/fail.png');
+  goNow = loadImage('./assets/now.png');
+  pixel = loadFont('./assets/VCR_OSD_MONO_1.001.ttf');
 }
 
 function setup() {
   createCanvas(1280, 720);
   frameRate(60);
-  sky = loadImage('assets/sky.png'); //background is loaded here. Sprites are all loaded within the player/master objects
-  ground = loadImage('assets/ground.png');
+  sky = loadImage('./assets/sky.png'); //background is loaded here. Sprites are all loaded within the player/master objects
+  ground = loadImage('./assets/ground.png');
   background(sky);
   image(ground, 0, 0);
   

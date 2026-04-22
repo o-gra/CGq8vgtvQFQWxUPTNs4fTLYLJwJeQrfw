@@ -41,10 +41,10 @@ class Master{
     
     earlyShot = false; p1try = 2; p2try = 2;
     
-    //goNow = loadImage('assets/now.png');    //Initialize firing prompt
-    //pixel = loadFont('assets/VCR_OSD_MONO_1.001.ttf', 100);
+    //goNow = loadImage('./assets/now.png');    //Initialize firing prompt
+    //pixel = loadFont('./assets/VCR_OSD_MONO_1.001.ttf', 100);
     
-    //cloudSheet = loadImage('assets/clouds.png');
+    //cloudSheet = loadImage('./assets/clouds.png');
     cloudSprites[0] = cloudSheet.get(0, 0, 500, 215);     cloudSprites[4] = cloudSheet.get(550, 50, 700, 170);
     cloudSprites[1] = cloudSheet.get(0, 230, 620, 540);   cloudSprites[5] = cloudSheet.get(760, 0, 1279, 230);
     cloudSprites[2] = cloudSheet.get(0, 590, 250, 719);   cloudSprites[6] = cloudSheet.get(660, 205, 1279, 719);

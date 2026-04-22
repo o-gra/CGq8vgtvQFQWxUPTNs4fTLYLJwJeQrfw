@@ -12,7 +12,7 @@ class Player extends Master{
     p1Sprite = 0; p2Sprite = 4;
     frameTimer = 0;
     
-    //playerSprite = loadImage('assets/spriteArt.png');
+    //playerSprite = loadImage('./assets/spriteArt.png');
     playerStance[0] = playerSprite.get(0, 0, 150, 250);     playerStance[4] = playerSprite.get(385, 274, 150, 250);
     playerStance[1] = playerSprite.get(160, 0, 200, 250);   playerStance[5] = playerSprite.get(185, 274, 200, 250);
     playerStance[2] = playerSprite.get(375, 0, 150, 250);   playerStance[6] = playerSprite.get(15, 274, 150, 250);
@@ -20,7 +20,7 @@ class Player extends Master{
     playerStance[8] = failure;
     // ^ again, the player sprite sheet
     
-    //joker = loadImage('assets/joker.png');
+    //joker = loadImage('./assets/joker.png');
   }
   
   count(){ //Initiates the round
